@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEING STRONG FITNESS CLUB</title>
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+    <style>
+        img {
+            width: 100%;
+        }
+
+        body {
+            background: #212121;
+        }
+
+        nav {
+            background: white;
+        }
+
+        .flex {
+            display: flex;
+            align-items: center;
+        }
+
+        @media(min-width:300px) {
+            nav img {
+                height: 5vh;
+                width: auto;
+                margin-right: 1rem;
+            }
+
+            nav {
+                display: flex;
+                justify-content: center;
+                padding: 2vh;
+            }
+
+            nav h3 {
+                color: #212121;
+                font-weight: bolder;
+            }
+
+
+            .one h4 {
+                text-align: center;
+                color: white;
+                margin-top: 5vh;
+            }
+
+
+            .two {
+                background: white;
+                padding: 1.5rem;
+                width: 70%;
+                margin: 5vh auto;
+                border-radius: 12px;
+
+            }
+
+            .two label {
+                color: #212121;
+                font-size: 1.1rem;
+            }
+
+            .two input[type="text"] {
+                border: none;
+                padding: 0.8rem;
+                outline: none;
+                border-bottom: 1px solid #212121;
+                font-size: 1.2rem;
+                width: 90%;
+            }
+
+            .two input[text="radio"],
+            input [type="checkbox"] {
+                margin-top: 1rem;
+                margin-top: 2vh;
+                margin-bottom: 2vh;
+
+            }
+
+            .checkboxes {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .button {
+                background: #212121;
+                font-weight: bold;
+                outline: none;
+                border: none;
+                width: 90%;
+                padding: 0.9rem;
+                border-radius: 12px;
+                margin-top: 3vh;
+
+            }
+
+
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="flex">
+            <img src="https://th.bing.com/th?id=OIP.Z8D_cl09YMLGI59v2zVTDgHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
+                alt="">
+            <h3>E-COMMERCE BOOK STORES</h3>
+        </div>
+    </nav>
+    <section class="photo">
+        <div class="one">
+            <h4>REGISTRATION PAGE</h4>
+
+        </div>
+        <div class="two">
+            <form action="Mainpage.html">
+                <input type="text" name="User Name" placeholder="Enter your Name">
+                <input type="text" name="Email" placeholder="Enter your Email">
+                <input type="text" name="Password" placeholder="Enter the password">
+                <input type="text" name="Phone number" placeholder="Enter your phone number">
+
+                <div class="gender">
+                    <label style="background-color: brown;">Select your Gender:</label><br>
+                    <input type="radio" value="Male" name="gender"><label for="Male"> Male</label>
+                    <input type="radio" value="Female" name="gender"><label for="Male"> Female</label>
+
+                </div>
+                <center><button type="submit" style="background-color:royalblue">Register</button></center>
+            </form>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
